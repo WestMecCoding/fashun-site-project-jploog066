@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASHUN</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        #container {
+            max-width: 1920px;
+        }
+
+        header {}
+
+        header nav {}
+
+        header nav a {}
+
+        #logo h1 {
+            /* font-family merriweather from Google Fonts */
+
+            font-weight: 600;
+
+        }
+
+        @media (min-width: 0px) and (max-width: 768px) {
+            div#splash-image {
+                background-image: url('./768_assets/fashun_banner_768.png');
+                background-size: cover;
+                width: 100%;
+                height: 50vh;
+                background-position: top left
+            }
+            h1 {
+                font-size: 3rem;
+                text-align: center;
+                font-family: 'Merriweather', serif;
+            }
+            #jacket {
+            background:linear-gradient(to bottom right,orange,white,white);
+            padding-left: 20px;
+            padding-right: 20px;
+            margin: 50px;
+            text-align: center;
+        }
+        #shoe {
+            background:linear-gradient(to bottom right,orange,white,white);
+            padding-left: 20px;
+            padding-right: 20px;
+            margin: 50px;
+            text-align: center;
+        }
+        #hat {
+            display: none;
+        }
+        #link {
+            float: right;
+            font-size: 0.01em;
+            font-family: 'Merriweather', serif;
+            position: relative;
+            bottom: 300px;
+        }
+        #menu {
+            float: right;
+            position: relative;
+            bottom: 65px;
+            left: 90px;
+        }
+        #text {
+        text-align: center;
+        font-size: 2em;
+        font-family: 'Merriweather', serif;
+        }
+        #shoetext {
+        text-align: center;
+        font-size: 2em;
+        font-family: 'Merriweather', serif;
+        }
+        #hattext {
+        display: none;
+        }
+        }
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 1.5em;
+            text-align: center;
+            font-family: 'Merriweather', serif;
+        }
+        main a {
+            text-decoration: none;
+            color: black;
+        }
+
+        @media (min-width: 768px) and (max-width: 1279px) {
+            div#splash-image {
+                background-image: url('./1280_assets/fashun_banner_1280.png');
+                background-size: cover;
+                min-width: 768px;
+                max-width: 100%;
+                height: 40vh;
+                background-position: top center;
+            }
+            h1 {
+                font-size: 3rem;
+                float: left;
+                font-family: 'Merriweather', serif;
+                position: relative;
+                top: 10px;
+                left: 25px;
+            }
+            #menu {
+                position: relative;
+                bottom: 200px;
+            }
+            #link {
+            float: right;
+            font-size: 1em;
+            font-family: 'Merriweather', serif;
+            position: relative;
+            bottom: 5px;
+            right: 40px;
+            padding: 30px;
+        } 
+        #jacket {
+            display: none;
+        }
+        #text {
+            display: none;
+        }
+        #shoe {
+            float: left;
+            position: relative;
+            top: 180px;
+            left: 200px;
+        }
+        #hat {
+            float: right;
+            position: relative;
+            top: 170px;
+            right: 200px;
+        }
+        #shoetext {
+            float: left;
+            position: relative;
+            top: 390px;
+            right: 70px;
+            font-size: 1.1em;
+        }
+        #hattext {
+            float: right;
+            position: relative;
+            top: 380px;
+            left: 40px;
+            font-size: 1.1em;
+        }
+            
+        }
+
+        @media (min-width: 1280px) {
+            div#splash-image {
+                background-image: url('./1920_assets/fashun_banner_1920.jpg');
+                background-size: cover;
+                min-width: 1280px;
+                max-width: 100%;
+                height: 40vh;
+                background-position: center center
+            }
+            h1 {
+                font-size: 3rem;
+                float: left;
+                font-family: 'Merriweather', serif;
+                position: relative;
+                top: 10px;
+                left: 25px;
+            }
+            #menu {
+                position: relative;
+                bottom: 200px;
+            } 
+            #link {
+            float: right;
+            font-size: 1em;
+            font-family: 'Merriweather', serif;
+            position: relative;
+            bottom: 5px;
+            right: 40px;
+            padding: 30px;
+        } 
+        #jacket {
+            float: left;
+            position: relative;
+            top: 160px;
+            left: 800px;
+        }
+        #text {
+            float: left;
+            position: relative;
+            top: 400px;
+            left: 550px;
+            font-size: 1.1em;
+        }
+        #shoe {
+            float: left;
+            position: relative;
+            top: 180px;
+            right: 300px;
+        }
+        #hat {
+            float: right;
+            position: relative;
+            top: 170px;
+            right: 200px;
+        }
+        #shoetext {
+            float: left;
+            position: relative;
+            top: 400px;
+            right: 550px;
+            font-size: 1.1em;
+        }
+        #hattext {
+            float: right;
+            position: relative;
+            top: 380px;
+            left: 30px;
+            font-size: 1.1em;
+        }
+        } 
+        
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div id="logo">
+                <h1>FASHUN</h1>
+            </div>
+            <nav id="link">
+                <a href="">Fall Fashions</a>
+            </nav>
+            <nav id="link">
+                <a href="">Shop Now</a>
+            </nav>
+            <nav id="link">
+                <a href="">Fashun Club</a>
+            </nav>
+            <nav id="menu">
+                <img src="./768_assets/Hamburger_menu.png" alt="menu" width="70px" height="70px"/>
+            </nav>
+        </header>
+        <div id="splash-image"></div>
+        <main>
+            <div id="jacket"><img src="./768_assets/fashun_jacket_768.png" alt="jacket"/></div>
+            <div id="text"><p><a href="">SHOP WOMEN'S OUTERWEAR</a></p></div>
+            <div id="shoe"><img src="./768_assets/fashun_shoe_768.png" alt="shoe"/></div>
+            <div id="shoetext"><p><a href="">SHOP MEN'S SHOES</a></p></div>
+            <div id="hat"><img src="./1280_assets/fashun_hat_1280.png" alt="hat"/></div>
+            <div id="hattext"><p><a href="">SHOP HEADWEAR</a></p></div>
+        </main>
+    </div>
+</body>
+
+</html>
